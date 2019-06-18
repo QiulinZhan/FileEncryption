@@ -7,11 +7,11 @@ import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/en' // lang i18n
 
 import App from './App'
-import router from './router'
-import store from './store'
+// import router from './router'
+// import store from './store'
 
 import '@/icons' // icon
-import '@/permission' // permission control
+// import '@/permission' // permission control
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 
@@ -21,7 +21,5 @@ Vue.config.productionTip = false
 
 new Vue({
   components: { App },
-  router,
-  store,
   template: '<App/>'
 }).$mount('#app')

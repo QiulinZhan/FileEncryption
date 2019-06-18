@@ -1,8 +1,8 @@
 {
-  "name": "electron-vue-admin",
+  "name": "jjblg",
   "version": "3.0.0",
   "author": "Pan <panfree23@gmail.com>",
-  "description": "An electron-vue project",
+  "description": "hhhhhhhhh",
   "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "electron-vue-admin",
+    "productName": "jjblg",
     "appId": "org.simulatedgreg.electron-vue",
     "directories": {
       "output": "build"
@@ -54,6 +54,8 @@
   },
   "dependencies": {
     "axios": "0.17.1",
+    "bagpipe": "^0.3.5",
+    "crypto-js": "^3.1.9-1",
     "element-ui": "2.3.4",
     "js-cookie": "^2.2.0",
     "normalize.css": "7.0.0",

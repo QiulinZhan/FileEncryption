@@ -1,6 +1,5 @@
 .DS_Store
-dist/electron/*
-dist/web/*
+
 build/*
 !build/icons
 package-lock.json
@@ -9,3 +8,5 @@ npm-debug.log
 npm-debug.log.*
 thumbs.db
 !.gitkeep
+/dist/
+/.idea/

@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, Menu } from 'electron'
 
 /**
  * Set `__static` path to static files in production
@@ -18,11 +18,11 @@ function createWindow() {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 563,
+    height: 500,
     useContentSize: true,
-    width: 1000
+    width: 800
   })
-
+  Menu.setApplicationMenu(null)
   mainWindow.loadURL(winURL)
 
   mainWindow.on('closed', () => {
